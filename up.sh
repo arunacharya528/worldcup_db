@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c"
+PSQL="psql --username=postgres --dbname=worldcup --no-align --tuples-only -c"
 
 echo "$($PSQL "
 CREATE TABLE teams(
